@@ -1,0 +1,57 @@
+/* General page container */
+.page-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  
+  justify-content: center; /* Centers the logo horizontally */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 400px; /* Adjust this to make the logo bigger */
+  height: auto;
+}
+
+/* Group name styling */
+.group-name h1 {
+  font-size: 48px;
+  color: green;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Student grid layout */
+.image-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.image-item {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Student image styling */
+.aluno-image {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Student name and number */
+.aluno-description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: black;
+}
